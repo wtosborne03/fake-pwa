@@ -30,9 +30,9 @@
                 </FormGroup>
                 {#if state =='Ohio'}
                   <Ohio></Ohio>
-                {:else if state == 'connecticut'}
+                {:else if state == 'Connecticut'}
+                  Not yet
                 {/if}
-                
             </Form>
             <canvas id="barcode"></canvas>
         </CardBody>
