@@ -26,12 +26,13 @@
                     <Label for="exampleSelect">State</Label>
                     <Input type="select" name="select" id="exampleSelect" bind:value={state}>
                       <option>Ohio</option>
+                      <option>Connecticut</option>
                     </Input>
                 </FormGroup>
                 {#if state =='Ohio'}
                   <Ohio></Ohio>
                 {:else if state == 'Connecticut'}
-                  Not yet
+                  Not Implemented Yet
                 {/if}
             </Form>
             <canvas id="barcode"></canvas>
